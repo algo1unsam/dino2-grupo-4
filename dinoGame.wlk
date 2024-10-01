@@ -84,7 +84,7 @@ object cactus {
 	method mover(){
 		position = game.at(position.x()-1,position.y())
 		if (position.x()<0){
-			position = game.at(game.width()-1,position.y())
+			position = self.posicionInicial()
 		}
 	}
 	
@@ -98,7 +98,7 @@ object cactus {
 
 object suelo{
 
-	method position() = game.origin().up(1)
+	method position() = game.origin()
 	method image() = "suelo.png"
 }
 
