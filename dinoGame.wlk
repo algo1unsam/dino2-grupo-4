@@ -16,13 +16,14 @@ object juego{
 	
 		keyboard.space().onPressDo{ self.jugar()}
 		game.onCollideDo(dino,{ obstaculo => obstaculo.chocar()})
-		
+
 	} 
 	
 	method iniciar(){
 		dino.iniciar()
 		reloj.iniciar()
 		cactus.iniciar()
+		
 	}
 	
 	method jugar(){
@@ -52,18 +53,18 @@ object gameOver {
 object reloj {
 	var property tiempo = 0 
 	method text() = tiempo.toString()
-  //method textColor() = "00FF00FF"
+    //method textColor() = "00FF00FF"
 	method position() = game.at(1, game.height()-1)
 	
 	method pasarTiempo() {
-		//COMPLETAR
+		tiempo += 1
 	}
 	method iniciar(){
 		tiempo = 0
-		game.onTick(100,"tiempo",{self.pasarTiempo()})
+		game.onTick(1000,"tiempo",{self.pasarTiempo()})
 	}
 	method detener(){
-		//COMPLETAR
+		game.removeTickEvent("tiempo")
 	}
 }
 
@@ -79,23 +80,24 @@ object cactus {
 	}
 	
 	method mover(){
-		//COMPLETAR
+		position = game.at(position.x()-1,position.y())
+		if (position.x()<0){
+			position = self.posicionInicial()
+		}
 	}
 	
 	method chocar(){
-		//COMPLETAR
+		juego.terminar()	
 	}
     method detener(){
-		//COMPLETAR
+		game.removeTickEvent("moverCactus")
 	}
 }
 
 object suelo{
-
-	method position() = game.origin().up(1)
-	method image() = "suelo.png"
+	method position() = game.origin()
+	method image() = "suelonuevo.png"
 }
-
 
 object dino {
 	var vivo = true
@@ -104,8 +106,14 @@ object dino {
 	method image() = "dino.png"
 	
 	method saltar(){
-		//COMPLETAR
+		if(position.y() == suelo.position().y()) {
+			self.subir()
+			game.schedule(velocidad*3,{self.bajar()})
+			game.sound("marioSalto.mp3").volume(0.5)
+			game.sound("marioSalto.mp3").play()
+		}
 	}
+	
 	
 	method subir(){
 		position = position.up(1)
@@ -117,6 +125,7 @@ object dino {
 	method morir(){
 		game.say(self,"¡Auch!")
 		vivo = false
+		game.sound("oof.mp3").play()
 	}
 	method iniciar() {
 		vivo = true

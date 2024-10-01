@@ -625,3 +625,30 @@
 {"level":"info","message":"⌛ Building environment","timeElapsed":243,"timestamp":"2024-10-01T04:08:48.918Z"}
 {"level":"info","message":"onRequest - WORKSPACE_URI:file:///home/leon/Work/ALGO1/2024/Workspace/dino2","timestamp":"2024-10-01T04:08:48.974Z"}
 {"level":"info","message":"Removing diagnostics from /home/leon/Work/ALGO1/2024/Workspace/dino2/testExample.wtest","timestamp":"2024-10-01T04:08:49.020Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":137,"timestamp":"2024-10-01T21:56:49.991Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///home/datascience/Descargas/Juan/dino2-grupo-4","timestamp":"2024-10-01T21:56:49.997Z"}
+{"level":"info","message":"⌛ Validating dino.wtest","timeElapsed":163,"timestamp":"2024-10-01T21:56:50.407Z"}
+<<<<<<< HEAD
+{"error":["wollok.lang.EvaluationError wrapping TypeScript Error: Could not resolve reference to dino.sonidoSalto or its a reference to void","  at dinoGame.juego.configurar() [dinoGame.wlk:7]\r","  at mainExample.DinoGame [mainExample.wpgm:4]"],"level":"info","message":"👾 Game executed mainExample.DinoGame on c:\\Users\\Juancito\\Documents\\Proyectos-Wollok\\dino2-grupo-4","ok":false,"timeElapsed":891,"timestamp":"2024-10-01T22:32:05.090Z"}
+=======
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed mainExample.DinoGame on /home/datascience/Descargas/Juan/dino2-grupo-4","timeElapsed":121577,"timestamp":"2024-10-01T22:08:33.697Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed mainExample.DinoGame on /home/datascience/Descargas/Juan/dino2-grupo-4","timeElapsed":33037,"timestamp":"2024-10-01T22:09:07.137Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed mainExample.DinoGame on /home/datascience/Descargas/Juan/dino2-grupo-4","timeElapsed":124399,"timestamp":"2024-10-01T22:11:11.907Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed mainExample.DinoGame on /home/datascience/Descargas/Juan/dino2-grupo-4","timeElapsed":80328,"timestamp":"2024-10-01T22:12:32.514Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed mainExample.DinoGame on /home/datascience/Descargas/Juan/dino2-grupo-4","timeElapsed":28152,"timestamp":"2024-10-01T22:13:00.971Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed mainExample.DinoGame on /home/datascience/Descargas/Juan/dino2-grupo-4","timeElapsed":44409,"timestamp":"2024-10-01T22:13:45.679Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed mainExample.DinoGame on /home/datascience/Descargas/Juan/dino2-grupo-4","timeElapsed":39565,"timestamp":"2024-10-01T22:14:25.545Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed mainExample.DinoGame on /home/datascience/Descargas/Juan/dino2-grupo-4","timeElapsed":77760,"timestamp":"2024-10-01T22:15:43.607Z"}
+>>>>>>> 15dec3d2fe181993e9b9c0520dee3b704ed7cf86
+{"exitCode":{"address":"::","code":"EADDRINUSE","errno":-98,"port":3000,"syscall":"listen"},"level":"info","message":"👾 Game executed mainExample.DinoGame on /home/datascience/Descargas/Juan/dino2-grupo-4","timeElapsed":341,"timestamp":"2024-10-01T22:41:10.364Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed mainExample.DinoGame on /home/datascience/Descargas/Juan/dino2-grupo-4","timeElapsed":53044,"timestamp":"2024-10-01T22:41:14.443Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed mainExample.DinoGame on /home/datascience/Descargas/Juan/dino2-grupo-4","timeElapsed":6527,"timestamp":"2024-10-01T22:41:22.167Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed mainExample.DinoGame on /home/datascience/Descargas/Juan/dino2-grupo-4","timeElapsed":429710,"timestamp":"2024-10-01T22:48:32.170Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed mainExample.DinoGame on /home/datascience/Descargas/Juan/dino2-grupo-4","timeElapsed":29473,"timestamp":"2024-10-01T22:49:01.939Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed mainExample.DinoGame on /home/datascience/Descargas/Juan/dino2-grupo-4","timeElapsed":503702,"timestamp":"2024-10-01T22:57:25.970Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed mainExample.DinoGame on /home/datascience/Descargas/Juan/dino2-grupo-4","timeElapsed":268319,"timestamp":"2024-10-01T23:01:54.618Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":235,"timestamp":"2024-10-01T23:30:30.008Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///home/datascience/Descargas/Juan/dino2-grupo-4","timestamp":"2024-10-01T23:30:30.011Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":125,"timestamp":"2024-10-01T23:30:30.137Z"}
+{"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":174,"timestamp":"2024-10-01T23:30:30.450Z"}
+{"level":"info","message":"⌛ Validating dino.wtest","timeElapsed":125,"timestamp":"2024-10-01T23:30:30.578Z"}
