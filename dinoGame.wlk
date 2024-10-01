@@ -17,8 +17,6 @@ object juego{
 		keyboard.space().onPressDo{ self.jugar()}
 		game.onCollideDo(dino,{ obstaculo => obstaculo.chocar()})
 
-		//dino.sonidoSalto().volume(0.5)
-		
 	} 
 	
 	method iniciar(){
@@ -97,7 +95,6 @@ object cactus {
 }
 
 object suelo{
-
 	method position() = game.origin()
 	method image() = "suelonuevo.png"
 }
