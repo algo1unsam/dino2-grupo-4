@@ -133,8 +133,7 @@ object dino {
 	method morir(){
 		game.say(self,"¡Auch!")
 		vivo = false
-		var s = new SonidoMuerte()
-		s.sonidoMuerte().play()
+		(new SonidoMuerte()).sonidoMuerte().play()
 	}
 	method iniciar() {
 		vivo = true
