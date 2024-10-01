@@ -102,6 +102,9 @@ object suelo{
 	method image() = "suelonuevo.png"
 }
 
+class SonidoMuerte{
+	const property sonidoMuerte = game.sound("oof.mp3")
+}
 
 object dino {
 	var vivo = true
@@ -130,7 +133,8 @@ object dino {
 	method morir(){
 		game.say(self,"¡Auch!")
 		vivo = false
-		self.sonidoMuerte().play()
+		var s = new SonidoMuerte()
+		s.sonidoMuerte().play()
 	}
 	method iniciar() {
 		vivo = true
