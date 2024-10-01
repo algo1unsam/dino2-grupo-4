@@ -52,18 +52,18 @@ object gameOver {
 object reloj {
 	var property tiempo = 0 
 	method text() = tiempo.toString()
-  //method textColor() = "00FF00FF"
+    //method textColor() = "00FF00FF"
 	method position() = game.at(1, game.height()-1)
 	
 	method pasarTiempo() {
-		//COMPLETAR
+		tiempo+=0.1
 	}
 	method iniciar(){
 		tiempo = 0
 		game.onTick(100,"tiempo",{self.pasarTiempo()})
 	}
 	method detener(){
-		//COMPLETAR
+		game.removeTickEvent("tiempo")
 	}
 }
 
@@ -79,14 +79,17 @@ object cactus {
 	}
 	
 	method mover(){
-		//COMPLETAR
+		position = game.at(position.x()-1,position.y())
+		if (position.x()<0){
+			position = game.at(game.width()-1,position.y())
+		}
 	}
 	
 	method chocar(){
-		//COMPLETAR
+		juego.terminar()	
 	}
     method detener(){
-		//COMPLETAR
+		game.removeTickEvent("moverCactus")
 	}
 }
 
