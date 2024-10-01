@@ -628,3 +628,4 @@
 {"level":"info","message":"⌛ Building environment","timeElapsed":137,"timestamp":"2024-10-01T21:56:49.991Z"}
 {"level":"info","message":"onRequest - WORKSPACE_URI:file:///home/datascience/Descargas/Juan/dino2-grupo-4","timestamp":"2024-10-01T21:56:49.997Z"}
 {"level":"info","message":"⌛ Validating dino.wtest","timeElapsed":163,"timestamp":"2024-10-01T21:56:50.407Z"}
+{"error":["wollok.lang.EvaluationError wrapping TypeScript Error: Could not resolve reference to dino.sonidoSalto or its a reference to void","  at dinoGame.juego.configurar() [dinoGame.wlk:7]\r","  at mainExample.DinoGame [mainExample.wpgm:4]"],"level":"info","message":"👾 Game executed mainExample.DinoGame on c:\\Users\\Juancito\\Documents\\Proyectos-Wollok\\dino2-grupo-4","ok":false,"timeElapsed":891,"timestamp":"2024-10-01T22:32:05.090Z"}
