@@ -99,7 +99,7 @@ object cactus {
 object suelo{
 
 	method position() = game.origin()
-	method image() = "suelo.png"
+	method image() = "suelonuevo.png"
 }
 
 

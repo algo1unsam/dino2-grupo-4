@@ -640,3 +640,8 @@
 {"exitCode":"SIGHUP","level":"info","message":"👾 Game executed mainExample.DinoGame on /home/datascience/Descargas/Juan/dino2-grupo-4","timeElapsed":39565,"timestamp":"2024-10-01T22:14:25.545Z"}
 {"exitCode":"SIGHUP","level":"info","message":"👾 Game executed mainExample.DinoGame on /home/datascience/Descargas/Juan/dino2-grupo-4","timeElapsed":77760,"timestamp":"2024-10-01T22:15:43.607Z"}
 >>>>>>> 15dec3d2fe181993e9b9c0520dee3b704ed7cf86
+{"exitCode":{"address":"::","code":"EADDRINUSE","errno":-98,"port":3000,"syscall":"listen"},"level":"info","message":"👾 Game executed mainExample.DinoGame on /home/datascience/Descargas/Juan/dino2-grupo-4","timeElapsed":341,"timestamp":"2024-10-01T22:41:10.364Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed mainExample.DinoGame on /home/datascience/Descargas/Juan/dino2-grupo-4","timeElapsed":53044,"timestamp":"2024-10-01T22:41:14.443Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed mainExample.DinoGame on /home/datascience/Descargas/Juan/dino2-grupo-4","timeElapsed":6527,"timestamp":"2024-10-01T22:41:22.167Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed mainExample.DinoGame on /home/datascience/Descargas/Juan/dino2-grupo-4","timeElapsed":429710,"timestamp":"2024-10-01T22:48:32.170Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed mainExample.DinoGame on /home/datascience/Descargas/Juan/dino2-grupo-4","timeElapsed":29473,"timestamp":"2024-10-01T22:49:01.939Z"}
