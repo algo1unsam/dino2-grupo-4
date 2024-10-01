@@ -107,8 +107,12 @@ object dino {
 	method image() = "dino.png"
 	
 	method saltar(){
-		//COMPLETAR
+		if(position.y() == suelo.position().y()) {
+			self.subir()
+			game.schedule(velocidad*3,{self.bajar()})
+		}
 	}
+	
 	
 	method subir(){
 		position = position.up(1)

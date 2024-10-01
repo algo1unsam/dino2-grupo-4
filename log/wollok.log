@@ -625,3 +625,6 @@
 {"level":"info","message":"⌛ Building environment","timeElapsed":243,"timestamp":"2024-10-01T04:08:48.918Z"}
 {"level":"info","message":"onRequest - WORKSPACE_URI:file:///home/leon/Work/ALGO1/2024/Workspace/dino2","timestamp":"2024-10-01T04:08:48.974Z"}
 {"level":"info","message":"Removing diagnostics from /home/leon/Work/ALGO1/2024/Workspace/dino2/testExample.wtest","timestamp":"2024-10-01T04:08:49.020Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":137,"timestamp":"2024-10-01T21:56:49.991Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///home/datascience/Descargas/Juan/dino2-grupo-4","timestamp":"2024-10-01T21:56:49.997Z"}
+{"level":"info","message":"⌛ Validating dino.wtest","timeElapsed":163,"timestamp":"2024-10-01T21:56:50.407Z"}
