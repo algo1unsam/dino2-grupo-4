@@ -17,7 +17,7 @@ object juego{
 		keyboard.space().onPressDo{ self.jugar()}
 		game.onCollideDo(dino,{ obstaculo => obstaculo.chocar()})
 
-		dino.sonidoSalto().volume(0.5)
+		//dino.sonidoSalto().volume(0.5)
 		
 	} 
 	
@@ -109,8 +109,6 @@ class SonidoMuerte{
 object dino {
 	var vivo = true
 	var property position = game.at(1,suelo.position().y())
-	const property sonidoSalto = game.sound("marioSalto.mp3")
-	const property sonidoMuerte = game.sound("oof.mp3")
 	
 	method image() = "dino.png"
 	
@@ -118,7 +116,8 @@ object dino {
 		if(position.y() == suelo.position().y()) {
 			self.subir()
 			game.schedule(velocidad*3,{self.bajar()})
-			self.sonidoSalto().play()
+			game.sound("marioSalto.mp3").volume(0.5)
+			game.sound("marioSalto.mp3").play()
 		}
 	}
 	
@@ -133,8 +132,7 @@ object dino {
 	method morir(){
 		game.say(self,"¡Auch!")
 		vivo = false
-		var s = new SonidoMuerte()
-		s.sonidoMuerte().play()
+		game.sound("oof.mp3").play()
 	}
 	method iniciar() {
 		vivo = true
