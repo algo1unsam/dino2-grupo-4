@@ -628,3 +628,11 @@
 {"level":"info","message":"⌛ Building environment","timeElapsed":137,"timestamp":"2024-10-01T21:56:49.991Z"}
 {"level":"info","message":"onRequest - WORKSPACE_URI:file:///home/datascience/Descargas/Juan/dino2-grupo-4","timestamp":"2024-10-01T21:56:49.997Z"}
 {"level":"info","message":"⌛ Validating dino.wtest","timeElapsed":163,"timestamp":"2024-10-01T21:56:50.407Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed mainExample.DinoGame on /home/datascience/Descargas/Juan/dino2-grupo-4","timeElapsed":121577,"timestamp":"2024-10-01T22:08:33.697Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed mainExample.DinoGame on /home/datascience/Descargas/Juan/dino2-grupo-4","timeElapsed":33037,"timestamp":"2024-10-01T22:09:07.137Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed mainExample.DinoGame on /home/datascience/Descargas/Juan/dino2-grupo-4","timeElapsed":124399,"timestamp":"2024-10-01T22:11:11.907Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed mainExample.DinoGame on /home/datascience/Descargas/Juan/dino2-grupo-4","timeElapsed":80328,"timestamp":"2024-10-01T22:12:32.514Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed mainExample.DinoGame on /home/datascience/Descargas/Juan/dino2-grupo-4","timeElapsed":28152,"timestamp":"2024-10-01T22:13:00.971Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed mainExample.DinoGame on /home/datascience/Descargas/Juan/dino2-grupo-4","timeElapsed":44409,"timestamp":"2024-10-01T22:13:45.679Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed mainExample.DinoGame on /home/datascience/Descargas/Juan/dino2-grupo-4","timeElapsed":39565,"timestamp":"2024-10-01T22:14:25.545Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed mainExample.DinoGame on /home/datascience/Descargas/Juan/dino2-grupo-4","timeElapsed":77760,"timestamp":"2024-10-01T22:15:43.607Z"}
